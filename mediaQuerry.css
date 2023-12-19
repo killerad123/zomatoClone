@@ -1,0 +1,198 @@
+@media screen and (max-width:1445px) {
+    html{
+        font-size: 14px;
+    }
+}
+
+
+@media screen and (max-width:1280px) {
+    html{
+        font-size: 10px;
+    }
+    .navbar nav p,.navbar ul li{
+        font-size: 2.2rem;
+    }
+    .box{
+        font-size: 1.5rem;
+    }
+    .search-box input{
+        font-size: 1.5rem;
+    }
+    .location{
+        width: 30%;
+    }
+    .location p{
+        font-size: 1.3rem;
+    }
+    .search-container{
+padding: 15px;
+    }
+    #bx{
+        width:95%;
+    }
+    .item-text p{
+        font-size: 2rem;
+    }
+    .header-headline >p{
+        margin: 3rem 3rem;
+    }
+    .box{
+        font-size: 1.8rem;
+    }
+    .app-info{
+        padding-left: 20px;
+    }
+}
+
+@media screen and (max-width:990px) {
+    html{
+        font-size: 8px;
+    }
+    .navbar nav p,.navbar ul li{
+        font-size: 3rem;
+    }
+    header,.bg-img img{
+        height: 65vh;
+    }
+    .search-container{
+        width: 60%;
+    }
+    .location p{
+        font-size: 1.3rem;
+    }
+    .item-image,.item-image img{
+        width: 180px;
+        height: 140px;
+    }
+    .mobile-img img{
+       height: 60%;
+    }
+    #zomato-img{
+        width: 30%;
+    }
+}
+
+@media screen and (max-width:768px) {
+    html{
+        font-size: 6.5px;
+    }
+    header,.bg-img img{
+        height: 60vh;
+    }
+    #zomato-img{
+        width: 30%;
+    }
+    .menu-icon{
+        display: block;
+        /* position: relative; */
+        /* z-index: 100; */
+    }
+    .navbar nav{
+        padding: 18px 35px;
+    }
+    .nav-list{
+        opacity: 0;
+        position: absolute;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        height: 0px;
+        z-index: 100;
+        top: 0px;
+        left: 0px;
+        gap: 50px;
+        width: 100vw;
+        background-color:rgb(255, 255, 255);
+        color:black;
+    }
+    .header-headline >p{
+       font-size: 3rem;
+       margin: 4rem 4rem;
+    }
+    .location{
+        width: 32%;
+    }
+    .location p{
+        font-size: 1.7rem;
+    }
+    .search-container{
+        width: 70%;
+        padding: 14px;
+    }
+    .search-box input{
+        font-size: 2.1rem;
+    }
+    .item-image,.item-image img{
+        width: 120px;
+        height: 100px;
+    }
+    .item-text p{
+        font-size: 2.3rem;
+    }
+    .box{
+        font-size: 2.3rem;
+    }
+    .mobile-img{
+        width: 55%;
+    }
+    .app-info{
+        font-size: 4rem;
+    }
+}
+
+@media screen and (max-width:516px){
+    .search-container{
+        width: 70%;
+        padding: 10px;
+    }
+    .mobile-img{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height:70vh;
+    }
+    .fourth-section{
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+        padding-top: 0px;
+    }
+    .app-info{
+        width: 100%;
+        font-weight: bold;
+        font-size: 3rem;
+        padding-left:0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .mobile-img img{
+        height: 80%;
+    }
+    .app-info img{
+        width: 150px;
+    }
+
+}
+
+@media screen and (max-width:410px) {
+    .second-section{
+        display: flex;
+       flex-wrap: wrap;
+   }
+   .box{
+    font-size: 11px;
+    height: fit-content;
+    width: fit-content;
+   }
+   .search-container{
+    width: 90%;
+   }
+   .app-img{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 10px;
+   }
+}
